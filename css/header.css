@@ -1,0 +1,39 @@
+.header-container{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.barra-busqueda{
+  display: none;
+}
+
+@media (min-width: 678px){
+  .icono-buscar{
+    display: none;
+  }
+  .logo-input{
+    display: flex;
+    justify-content: space-between;
+  }
+  .barra-busqueda{
+    margin-left: 2rem;
+    display: block;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 20px;
+    width: 18rem;
+    padding-left: 10px;
+  }
+}
+@media (min-width: 968px){
+  .header-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+  }
+}

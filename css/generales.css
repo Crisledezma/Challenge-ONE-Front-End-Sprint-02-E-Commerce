@@ -1,0 +1,25 @@
+html{
+  font-family: var(--general-font);
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: var(--blue);
+}
+.blue-button{
+  color: white;
+  background-color: var(--blue);
+  border: none;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+}
+.white-button{
+  color: var(--blue);
+  background-color: transparent;
+  font-family: var(--general-font);
+  font-weight: 500;
+  border: 1px solid var(--blue);
+  padding:.8rem 1.5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.login-section{
+  background-color: var(--gris-claro);
+  height: 50vh;
+}
+.login-form{
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.login-form input::placeholder{
+  color: #A2A2A2;
+}
+
+@media (min-width: 768px){
+  .login-form{
+    max-width: 40%;
+    height: 40vh;
+  }
+  .login-section{
+    height: 40vh;
+  }
+}
+
+@media (min-width: 968px){
+  .login-form{
+    max-width: 40%;
+    height: 50vh;
+  }
+  .login-form button{
+    width: 90%;
+  }
+  .login-section{
+    height: 50vh;
+  }
+}
