@@ -1,0 +1,87 @@
+
+  [
+    {
+      "name": "Taza Storm Trooper",
+      "price": 60,
+      "cat": "Star Wars",
+      "desc": "Taza con la forma de un Storm Trooper",
+      "url": "./img/taza-storm-trooper.png"
+    },
+    {
+      "name": "Lego Darth Vader",
+      "price": 60,
+      "cat": "Star Wars",
+      "desc": "Lego para armar la figura de la cabeza de Darth Vader",
+      "url": "./img/cabeza-darth-vader.png"
+    },
+    {
+      "name": "Figura 3D Yoda",
+      "price": 60,
+      "cat": "Star Wars",
+      "desc": "Figura en 3D del Maestro Yoda",
+      "url": "./img/master-yoda.png"
+    },
+    {
+      "name": "Figura 3D Storm Trooper",
+      "price": 60,
+      "cat": "Star Wars",
+      "desc": "Figura en 3D del un Storm Trooper armado y a punto de atacar",
+      "url": "./img/storm-trooper.png"
+    },
+    {
+      "name": "Control para XBox",
+      "price": 120,
+      "cat": "Consolas",
+      "desc": "Control para la consola XBox de Microsoft",
+      "url": "./img/control-xbox.png"
+    },
+    {
+      "name": "Consola PlayStation5",
+      "price": 720,
+      "cat": "Consolas",
+      "desc": "Consola Play Station 5 y control inalambrico",
+      "url": "./img/play-5.png"
+    },
+    {
+      "name": "Consola SNES",
+      "price": 150,
+      "cat": "Consolas",
+      "desc": "Consola SNES con 100 juegos y 2 controles",
+      "url": "./img/super-nintendo.png"
+    },
+    {
+      "name": "Controles Nintendo Switch",
+      "price": 150,
+      "cat": "Consolas",
+      "desc": "Controles nuevos y coloridos parra Nintendo Switch",
+      "url": "./img/controles-switch.png"
+    },
+    {
+      "name": "Camisa Atari",
+      "price": 20,
+      "cat": "Diversos",
+      "desc": "Camisa Retro con la imagen oficial de la marca Atari",
+      "url": "./img/camisa-atari.png"
+    },
+    {
+      "name": "Camisa SNES",
+      "price": 20,
+      "cat": "Diversos",
+      "desc": "Camisa Retro con la imagen oficial de la consola SNES",
+      "url": "./img/camisa-snes.png"
+    },
+    {
+      "name": "Figura Sonic the HedgeHog",
+      "price": 60,
+      "cat": "Diversos",
+      "desc": "Figura 3D del emblematico personaje de SEGA, Sonic the HedgeHog",
+      "url": "./img/sonic.png"
+    },
+    {
+      "name": "Reloj Despertador y Radio Rosa",
+      "price": 60,
+      "cat": "Diversos",
+      "desc": "Reloj despertador y radio de color rosa",
+      "url": "./img/reloj-rosa.png"
+    }
+  ]

@@ -11,6 +11,9 @@
 .barra-busqueda{
   display: none;
 }
+.logo-input img{
+  height: 3rem;
+}
 
 @media (min-width: 678px){
   .icono-buscar{
@@ -28,6 +31,7 @@
     border-radius: 20px;
     width: 18rem;
     padding-left: 10px;
+    line-height: 2rem;
   }
 }
 @media (min-width: 968px){
