@@ -6,7 +6,7 @@ export class ProductService{
 
   getProducts() {
 
-    const url = '../db.json'
+    const url = 'https://raw.githubusercontent.com/Crisledezma/Challenge-ONE-Front-End-Sprint-02-E-Commerce/main/db.json'
     var request = new XMLHttpRequest();
     request.open('GET', url);
     request.onload = this.sendInfo.bind(this);
