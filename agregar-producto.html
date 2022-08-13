@@ -24,15 +24,22 @@
       <img class="icono-buscar" src="./img/buscar-img.svg" alt="buscar">
     </div>
   </header>
+  <!-- Formulario -->
   <section class="section-agregar">
     <form class="form-agregar">
       <h1>Agregar nuevo producto</h1>
-      <input type="url" placeholder="URL de la imagen">
-      <input type="text" placeholder="Categoría">
-      <input type="text" placeholder="Nombre del producto">
-      <input type="number" placeholder="Precio del producto">
-      <textarea name="descripcion" id="descripcion" cols="30" rows="5" placeholder="Descripción del producto"></textarea>
-      <button class="blue-button full-width" type="button">Agregar Producto</button>
+      <input id="formUrl" type="url" placeholder="URL de la imagen" required>
+      <label for="categoriaSelect">Seleccione una categoría</label>
+      <select id="formCat" class="form-select" required>
+        <option value="" active>Seleccione una opción</option>
+        <option value="starwars">Star Wars</option>
+        <option value="consolas">Consolas</option>
+        <option value="diversos">Diversos</option>
+      </select>
+      <input id="formName" type="text" placeholder="Nombre del producto">
+      <input id="formPrice" type="number" placeholder="Precio del producto">
+      <textarea id="formDesc" cols="30" rows="5" placeholder="Descripción del producto"></textarea>
+      <button id="btn" class="blue-button full-width" type="submit">Agregar Producto</button>
     </form>
   </section>
   <section class="section-footer">
@@ -71,7 +78,7 @@
     </footer>
     <div class="rodapie">Desarrollado por Cristian Ledezma 2022</div>
   </section>
-
+  <script type="module" src="./js/agregar-producto.js"></script>
 </body>
 
 </html>

@@ -13,8 +13,8 @@ export class ProductView {
     
   }
   
-  getProducts(products) {
-    this.products = products
+  getProducts(pProducts) {
+    this.products = pProducts
     this.buildCards(this.products);
   }
   

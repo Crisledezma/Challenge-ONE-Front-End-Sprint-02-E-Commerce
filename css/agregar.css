@@ -8,15 +8,20 @@
   flex-direction: column;
   align-items: center;
 }
-.form-agregar input, textarea{
+.form-agregar input, textarea, .form-select{
   width: 90%;
 }
-.form-agregar textarea{
+.form-agregar textarea, .form-select{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .full-width{
   width: 90%;
+}
+.form-select{
+  border: none;
+  padding: .90rem;
+  color: gray;
 }
 
 @media (min-width: 968px){

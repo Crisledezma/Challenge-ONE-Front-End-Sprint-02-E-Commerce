@@ -23,7 +23,7 @@ footer-form{
   font-weight: 700;
   padding-left: 2rem;
 }
-form input, textarea{
+form input, textarea, select{
   width: 90%;
   margin-bottom: 1rem;
   padding-left: 10px;

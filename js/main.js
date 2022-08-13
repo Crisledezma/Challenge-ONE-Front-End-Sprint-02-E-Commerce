@@ -10,6 +10,4 @@ function init() {
 
   new ProductView('diversos');
 
-
-
 }
